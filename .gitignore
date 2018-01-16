@@ -1,0 +1,11 @@
+
+*.lock
+*.json
+*.pdb
+*.dll
+IndecisionApp/node_modules/
+*.cache
+*.txt
+*.targets
+IndecisionApp/obj/Debug/netcoreapp2.0/indecisionapp.AssemblyInfo.cs
+*.props
