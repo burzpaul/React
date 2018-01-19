@@ -1,6 +1,3 @@
-
-*.lock
-*.json
 *.pdb
 *.dll
 IndecisionApp/node_modules/
@@ -9,3 +6,4 @@ IndecisionApp/node_modules/
 *.targets
 IndecisionApp/obj/Debug/netcoreapp2.0/indecisionapp.AssemblyInfo.cs
 *.props
+IndecisionApp/bin/Debug/netcoreapp2.0/indecisionapp.runtimeconfig.dev.json
