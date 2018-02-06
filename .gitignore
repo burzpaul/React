@@ -9,3 +9,5 @@ IndecisionApp/obj/Debug/netcoreapp2.0/indecisionapp.AssemblyInfo.cs
 IndecisionApp/bin/Debug/netcoreapp2.0/indecisionapp.runtimeconfig.dev.json
 IndecisionApp/obj/project.assets.json
 IndecisionApp/obj/project.assets.json
+IndecisionApp/bin/Debug/netcoreapp2.0/indecisionapp.deps.json
+IndecisionApp/yarn.lock
