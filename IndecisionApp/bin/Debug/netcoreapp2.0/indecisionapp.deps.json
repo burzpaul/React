@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "70b3bde655f1381cc2c47ce764bce5ef018ebe33"
+    "signature": "d572f4ea3dd74dba59e70245327f27c4af3c6c19"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,8 @@
       "indecisionapp/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.3",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "Redouble.AspNet.Webpack": "2.0.0"
         },
         "runtime": {
           "indecisionapp.dll": {}
@@ -2363,6 +2364,18 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "Redouble.AspNet.Webpack/2.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.1",
+          "Microsoft.AspNetCore.NodeServices": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Redouble.AspNet.Webpack.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Redouble.AspNet.Webpack.dll": {}
         }
       },
       "Remotion.Linq/2.1.1": {
@@ -5125,6 +5138,13 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "Redouble.AspNet.Webpack/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2bnXRoPWrn8G+7nEHw5jABX2Ok3qUrdX33tyKlQN5w8LHJP55+PnVLyi+JEEeCI8iR5Ax0zZRDFhCs5iiJFfNA==",
+      "path": "redouble.aspnet.webpack/2.0.0",
+      "hashPath": "redouble.aspnet.webpack.2.0.0.nupkg.sha512"
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",

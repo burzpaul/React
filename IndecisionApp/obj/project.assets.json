@@ -12535,23 +12535,26 @@
   },
   "packageFolders": {
     "C:\\Users\\burzp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\programare\\personal\\reactandnetcore\\indecisionapp\\indecisionapp.csproj",
+      "projectUniqueName": "F:\\programare\\personal\\reactandnetcore\\IndecisionApp\\indecisionapp.csproj",
       "projectName": "indecisionapp",
-      "projectPath": "F:\\programare\\personal\\reactandnetcore\\indecisionapp\\indecisionapp.csproj",
+      "projectPath": "F:\\programare\\personal\\reactandnetcore\\IndecisionApp\\indecisionapp.csproj",
       "packagesPath": "C:\\Users\\burzp\\.nuget\\packages\\",
-      "outputPath": "F:\\programare\\personal\\reactandnetcore\\indecisionapp\\obj\\",
+      "outputPath": "F:\\programare\\personal\\reactandnetcore\\IndecisionApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\burzp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
