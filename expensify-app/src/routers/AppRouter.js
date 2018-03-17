@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 import Header from '../components/Header';
 import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
-import AddExpansePage from '../components/AddExpansePage';
-import EditExpansePage from '../components/EditExpansePage';
+import AddExpansePage from '../components/AddExpensePage';
+import EditExpansePage from '../components/EditExpensePage';
 import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/NotFoundPage';
 

@@ -21,8 +21,8 @@ export default class ExpenseForm extends React.Component {
         this.setState(() => ({ description }));
     };
     onNoteChange = (e) => {
-        e.persist();//the same
         this.setState(() => ({ note: e.target.value }));
+        e.persist();
     };
     onAmountChange = (e) => {
         const amount = e.target.value;
@@ -37,8 +37,6 @@ export default class ExpenseForm extends React.Component {
     };
     onFocusChange = ({ focused }) => {
         this.setState(() => ({ calendarFocused: focused }));
-        console.log(this.state.calendarFocused);
-
     };
     onSubmit = (e) => {
         e.preventDefault();

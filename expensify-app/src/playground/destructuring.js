@@ -16,6 +16,6 @@ console.log(`${publisherName}`);
 
 const adress = ['63 Memorandumului', 'Cluj-Naoca', 'Cluj', '1400'];
 
-const [, city, stat = 'Cluj'] = adress;
+const [, city, state = 'Cluj'] = adress;
 
 console.log(`You are in ${city} ${state}`);
