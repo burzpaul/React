@@ -5,6 +5,6 @@
   "author": "Paul Burz",
   "license": "MIT",
   "scripts": {
-    "heroku-postbuild": "cd expensify-app && yarn run heroku-postbuild"
+    "heroku-prebuild": "cd expensify-app"
   }
 }
