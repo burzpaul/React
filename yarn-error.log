@@ -1,0 +1,40 @@
+Arguments: 
+  c:\program files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js run heroku-postbuild
+
+PATH: 
+  c:\program files\microsoft mpi\bin\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\program files\microsoft sql server\130\tools\binn\;c:\program files\dotnet\;c:\program files (x86)\microsoft sql server\130\tools\binn\;c:\program files (x86)\microsoft sql server\130\dts\binn\;c:\program files\microsoft sql server\130\dts\binn\;c:\program files\microsoft sql server\client sdk\odbc\130\tools\binn\;c:\program files\nodejs\;c:\program files (x86)\microsoft sql server\client sdk\odbc\130\tools\binn\;c:\program files (x86)\microsoft sql server\140\tools\binn\;c:\program files (x86)\microsoft sql server\140\dts\binn\;c:\program files (x86)\microsoft sql server\140\tools\binn\managementstudio\;c:\program files\git\cmd;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\burzp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\burzp\AppData\Roaming\npm;C:\Users\burzp\AppData\Local\GitHubDesktop\bin;C:\Users\burzp\AppData\Local\Microsoft\WindowsApps;C:\Users\burzp\AppData\Local\Yarn\bin;C:\Program Files\Heroku\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.3.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "expensify",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Paul Burz",
+    "license": "MIT",
+    "scripts": {
+      "heroku-postbuild": "cd expensify-app && yarn run heroku-postbuild",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: F:\Programare\Personal\ReactAndNetCore\package.json: Unexpected token } in JSON at position 202
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
