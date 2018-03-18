@@ -9,6 +9,7 @@ import { setTextFilter } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
 import 'normalize.css/normalize.css';
 import './styles/style.scss';
+import './firebase/firebase';
 
 const store = configureStore();
 
