@@ -1,0 +1,9 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Paul Burz",
+  "license": "MIT",
+  "scripts": {
+    "heroku-postbuild": "cd expensify-app && yarn run heroku-postbuild",
+}
