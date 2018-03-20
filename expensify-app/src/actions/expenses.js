@@ -2,9 +2,9 @@ import uuid from 'uuid';
 import database from '../firebase/firebase';
 
 export const addExpense = (expense) => ({
-        type: 'ADD_EXPENSE',
-        expense    
-    });
+    type: 'ADD_EXPENSE',
+    expense
+});
 
 export const startAddExpense = (expenseData = {}) => {
     return (dispatch) => {
@@ -17,7 +17,7 @@ export const startAddExpense = (expenseData = {}) => {
 
         const expense = { description, note, amount, createdAt }
 
-        database.ref('expenses').push(expense).then((ref)=>{
+        database.ref('expenses').push(expense).then((ref) => {
             dispatch(addExpense({
                 id: ref.key,
                 ...expense
