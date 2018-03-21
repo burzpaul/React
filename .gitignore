@@ -4,3 +4,5 @@
 expensify-app/yarn-error.log
 
 expensify-app/public/dist
+expensify-app/.env.test
+expensify-app/.env.development
