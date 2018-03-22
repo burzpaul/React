@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 import {
     startAddExpense,
     addExpense,
-    startEditExpense,
+    editExpense,
     startEditExpense,
     removeExpense,
     startRemoveExpense,
@@ -50,7 +50,7 @@ test('should remove expense from firebase', (done) => {
 });
 
 test('should setup edit expense action object', () => {
-    const action = startEditExpense('123abc', { note: 'New note value' })
+    const action = editExpense('123abc', { note: 'New note value' })
     expect(action).toEqual({
         type: 'EDIT_EXPENSE',
         id: '123abc',
