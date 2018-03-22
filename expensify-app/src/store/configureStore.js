@@ -10,8 +10,8 @@ export default () => {
     const store = createStore(
         combineReducers({
             expenses: expensesReducer,
-            filters: filtersReducer
-            auth : authReducer
+            filters: filtersReducer,
+            auth: authReducer
         }),
         composeEnhancers(applyMiddleware(thunk)),
     );
