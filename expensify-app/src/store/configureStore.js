@@ -13,8 +13,8 @@ export default () => {
             filters: filtersReducer,
             auth: authReducer
         }),
-        composeEnhancers(applyMiddleware(thunk)),
+        composeEnhancers(applyMiddleware(thunk))
     );
 
     return store;
-}
+};

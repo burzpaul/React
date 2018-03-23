@@ -1,5 +1,7 @@
-import moment, { months } from 'moment';
-//Filter reducer
+import moment from 'moment';
+
+// Filters Reducer
+
 const filtersReducerDefaultState = {
     text: '',
     sortBy: 'date',
@@ -23,7 +25,7 @@ export default (state = filtersReducerDefaultState, action) => {
             return {
                 ...state,
                 sortBy: 'date'
-            }
+            };
         case 'SET_START_DATE':
             return {
                 ...state,
